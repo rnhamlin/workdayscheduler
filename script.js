@@ -25,7 +25,7 @@ for (var i = 0; i < hours.length; i++) {
     </button>`;
   containerEl.append(rowEl);
 }
-// Retrieves the time
+// Retrieves the time and displays it in the chart the way we want to view it.
 function getTime(hour) {
   switch (hour) {
     case "09":
